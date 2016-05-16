@@ -1,0 +1,44 @@
+/* ADD YOUR STYLES HERE */
+body {
+    background-color:#bdbdbd;
+}
+.instructions-container{
+    background-color:white;
+}
+td {
+    text-align: center;
+    padding: 10px 50px 9px 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCCCCC;
+}
+
+th {
+    text-align: center;
+    padding: 10px 50px 9px 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCCCCC;
+}
+
+.nobottom td {
+    border-bottom-style: none;
+}
+
+.numbers{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+tr.top {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #CCCCCC;
+}
+
+.barChart div{
+    background-color: lightblue;
+    
+}
