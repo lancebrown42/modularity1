@@ -5,7 +5,7 @@ body {
 .instructions-container{
     background-color:white;
 }
-td {
+.table td {
     text-align: center;
     padding: 10px 50px 9px 10px;
     border-bottom-style: solid;
@@ -13,7 +13,7 @@ td {
     border-bottom-color: #CCCCCC;
 }
 
-th {
+.table th {
     text-align: center;
     padding: 10px 50px 9px 10px;
     border-bottom-style: solid;
@@ -29,6 +29,8 @@ th {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    padding: 1px 50px 9px 10px;
+    
 
 }
 
@@ -36,9 +38,29 @@ tr.top {
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: #CCCCCC;
-}
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CCCCCC;
 
+}
+.barChart th{
+    text-align: right;
+    padding-right: 8px;
+    
+}
+.barChart td{
+    width: 100%;
+    border-bottom-style: none;
+    vertical-align: 50%;
+    color: white;
+}
 .barChart div{
-    background-color: lightblue;
+    background-color: cornflowerblue;
+    padding-top: 4px;
+    padding-left: 5px;
+    height: 25px;
+    
+
+    
     
 }
