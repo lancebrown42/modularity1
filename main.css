@@ -63,3 +63,66 @@ tr.top {
     padding-left: 5px;
     height: 22px;
 }
+
+/*.graybox {
+    display: block;
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    opacity: 0.97;
+    
+}
+.whitebox {
+    background-color: white;
+    width: 40%;
+    height: 30%;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    border-radius: 8px;
+    opacity: 1;
+    
+
+}
+.textbox {
+    padding-top: 15px;
+    padding-left: 15px;
+    opacity: 1;
+
+    
+}
+.close{
+    background-color: #EC828A;
+
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 10px;
+
+}
+
+.close a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    font-family: Arial;
+}
+
+*/
+
+.imageContainer{
+    float: left;
+}
+
+.cupcakeContainer{
+    padding-left: 70px;
+}
